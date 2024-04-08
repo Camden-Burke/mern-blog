@@ -6,7 +6,11 @@ export default {
     'node_modules/flowbite-react/**/*.{js,jsx,ts,tsx}',
   ],
   theme: {
-    extend: {},
+    extend: {
+      animation: {
+        'slide-in-right': 'slide-in-right 0.5s ease-out forwards',
+      },
+    },
   },
   plugins: [
     require('flowbite/plugin'),
